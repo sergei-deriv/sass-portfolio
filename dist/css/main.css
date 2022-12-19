@@ -134,10 +134,6 @@
   transition-delay: 0.45s;
 }
 
-.menu-nav__item:nth-child(4) {
-  transition-delay: 0.55s;
-}
-
 .about {
   padding-bottom: 2rem;
 }
