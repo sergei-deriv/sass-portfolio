@@ -179,6 +179,13 @@
 .about .jobs__job h6 {
   margin: 0.3rem 0;
 }
+.about .social {
+  display: flex;
+  flex-direction: column;
+}
+.about footer {
+  transform: rotate(90deg) translate(-3rem, -5rem);
+}
 
 body {
   background: #272727;
