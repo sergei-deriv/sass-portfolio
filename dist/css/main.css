@@ -59,6 +59,7 @@ main .social {
 }
 main .social a {
   padding: 0.4rem;
+  transition: all 0.5s ease-in-out;
 }
 main .social a:hover {
   color: orange;
