@@ -1,0 +1,33 @@
+.contact {
+    height: 100%;
+    padding-top: 40vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: 
+        linear-gradient(
+            to right,
+            rgba($primary-color, 0.8),
+            rgba($primary-color, 0.4)
+        ),
+        url('../../dist/img/John_Malkovich_5.jpg') center top;
+    background-size: cover;
+
+    h2 {
+        font-style: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .social {
+        position: initial;
+        margin-top: 2rem;
+    }
+}
